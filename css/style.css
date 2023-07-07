@@ -1,0 +1,158 @@
+/* *{
+    font-family: 'Times New Roman';
+} */
+
+.banner {
+  height: 500px;
+  background-color: black;
+}
+
+h4 {
+  color: white;
+  /* margin-top: 15px; */
+}
+.bi-list {
+  color: white;
+}
+
+/* h1 {
+  color: white;
+} */
+.top {
+  color: white;
+  margin-top: 38px;
+}
+
+.txt-rotate{
+   transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+/* icons */
+.icons{
+  display: flex;
+flex-direction: column  ;
+}
+ul {
+  list-style: none;
+}
+li {
+  line-height: 200%;
+  text-decoration: none;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #F64F59;
+}
+.btn-edit{
+    width: 100px;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    background-color: #F64F59;
+    margin-top: 38px;
+}
+
+/* .btn-primary {
+  color: white;
+  background-color: rgb(226, 71, 92);
+}
+.btn-primary:hover {
+  color: white;
+  background-color: rgb(226, 71, 92);
+} */
+
+/* our practices */
+h5 {
+  font-style: bold;
+  /* font-weight: 200; */
+  color: #F64F59;
+}
+
+/* cards */
+.card {
+  border: none;
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-title{
+    margin-top: 7px;
+}
+.card:hover{
+    background-color: #F64F59;
+    color: white;
+}
+.card:hover h5{
+    color: white;
+}
+.img1{
+  background-image: url("/images/MS.png");
+  background-size: cover;
+  height: 100%;
+} 
+.img1{
+  background-image: url("/images/MS.png");
+  background-size: cover;
+}
+.img1{
+  background-image: url("/images/MS.png");
+  background-size: cover;
+}
+.img1{
+  background-image: url("/images/MS.png");
+  background-size: cover;
+}
+
+.min{
+  color: green;
+  font-style: italic;
+  font-family: ui-monospace;
+  font-weight: 600;
+}
+.contact{
+  width: 100%;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F64F59;
+}
+
+.cont-head{
+  color: white;
+  font-size: 22px;
+  margin-left:13% ;
+}
+.btn-call{
+  width: 100px;
+    color: rgb(10, 9, 9);
+    padding: 9px 20px;
+    border-radius: 6px;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    margin-right: 13%;
+
+
+}
+
+/* *********footer*********** */
+.footer{
+  background-color: black;
+}
+.footer-headings{
+  color: white;
+}
+
+.address{
+  color: white;
+}
+
+/* responsive */
